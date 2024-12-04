@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+</head>
+<!-- stylesheet-->
+<link rel="stylesheet" href="css/style.css">
+<body>
+ <!--navigation -->
+ <div class="container">
+    <div class="navigation">
+         <ul>
+            <li>
+                <a hre="#">
+                   <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                   <span class="tittle">Brand Name</span>
+                 </a>
+            </li>
+             <li>
+                <a hre="#">
+                   <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                   <span class="tittle">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a hre="#">
+                  <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                  <span class="tittle">Customer</span>
+                </a>
+            </li>
+            <li>
+                <a hre="#">
+                    <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                    <span class="tittle">help</span>
+                </a>
+            </li>
+            <li>
+                 <a hre="#">
+                   <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                   <span class="tittle">setting</span>
+                </a>
+            </li>
+            <li>
+                <a hre="#">
+                    <span class="icon"><ion-icon name="lock-open-outline"></ion-icon> </span>
+                    <span class="tittle">Password</span>
+                 </a>
+            </li>
+            <li>
+                <a hre="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="tittle">Sign out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+       <div class="topbar">
+        <div class="toggle"><ion-icon name="menu-outline"></ion-icon></div>
+        <div class="search">
+            <label>
+                <input type="text" placeholder="search here">
+                <ion-icon name="search-outline"></ion-icon>
+            </label>
+        </div>
+        <div class="user">
+            <img src="img/rr.jpg" alt="">
+          <! --  <img src="img/rupesh.jpg" alt="">
+        </div>
+
+       </div>
+      
+
+
+       <!--*****************************************cards****************************-->
+        <div class="cardbox">
+         <div class="card">
+            <div>
+                <div class="numbers">15000</div>
+                <div class="cardname">Daily Views</div>
+            </div>
+            <div class="iconBx">
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+         </div>
+          <div class="card">
+            <div>
+                <div class="numbers">15000</div>
+                <div class="cardname">sells</div>
+            </div>
+            <div class="iconBx">
+                <ion-icon name="cart-outline"></ion-icon>
+            </div>
+          </div> 
+        <div class="card">
+            <div>
+                <div class="numbers">15000</div>
+                <div class="cardname">comments</div>
+            </div>
+            <div class="iconBx">
+                <ion-icon name="chatbox-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="numbers">15000</div>
+                <div class="cardname">earning</div>
+            </div>
+            <div class="iconBx">
+                <ion-icon name="card-outline"></ion-icon>
+            </div>
+        </div>
+
+       </div>
+       <!--*****************************************intrigation chartjs****************************-->
+      <div class="chartbx">
+        <div class="chart"></div>
+        <div class="chart"></div>
+      </div>
+       <!--===============details=========================-->
+       <div class="details">
+        <div class="recentorder">
+            <div class="cardheader">
+                <h2>Recent Order</h2>
+            <a href="#" class="btn">View All</a>
+            </div>
+            
+            <table>
+                <thead>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Payment</td>
+                    <td>Status</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Book</td>
+                        <td>Rs.500</td>
+                        <td>paid</td>
+                        <td><span class="status delivered">delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>copy</td>
+                        <td>Rs.500</td>
+                        <td>paid</td>
+                        <td><span class="status delivered">delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>penholder</td>
+                        <td>Rs.500</td>
+                        <td>paid</td>
+                        <td><span class="status delivered">delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>Pencil</td>
+                        <td>Rs.500</td>
+                        <td>paid</td>
+                        <td><span class="status delivered">delivered</span></td>
+                    </tr>
+                    <tr>
+                        <td>cricket</td>
+                        <td>Rs.600</td>
+                        <td>paid</td>
+                        <td><span class="status return">return</span></td>
+                    </tr>
+                    <tr>
+                        <td>pen</td>
+                        <td>Rs.400</td>
+                        <td>paid</td>
+                        <td><span class="status pending">pending..</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="recentcustomer">
+            <div class="cardheader">
+                <h2>Recent Customer</h2>
+            </div>
+            <table>
+                <tr>
+                    <td width="60px">
+                        <div class="imgbx"><img src="img/rr.jpg" alt=""></div>
+                    </td>
+                    <td>
+                        <h4> sarita<br><span>nepal</span></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px">
+                        <div class="imgbx"><img src="img/rupesh.jpg" alt=""></div>
+                    </td>
+                    <td>
+                        <h4> David <br><span>nepal</span></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px">
+                        <div class="imgbx"><img src="img/rr.jpg" alt=""></div>
+                    </td>
+                    <td>
+                        <h4> manju <br><span>nepal</span></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px">
+                        <div class="imgbx"><img src="img/rupesh.jpg" alt=""></div>
+                    </td>
+                    <td>
+                        <h4> Radhe<br><span>nepal</span></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px">
+                        <div class="imgbx"><img src="img/rr.jpg" alt=""></div>
+                    </td>
+                    <td>
+                        <h4> Kanchan<br><span>nepal</span></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px">
+                        <div class="imgbx"><img src="img/rupesh.jpg" alt=""></div>
+                    </td>
+                    <td>
+                        <h4> David <br><span>nepal</span></h4>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+       </div>
+
+    </div>
+ </div>
+ <script src="js/main.js">
+
+ </script>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
